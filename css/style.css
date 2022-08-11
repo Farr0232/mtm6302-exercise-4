@@ -1,0 +1,61 @@
+html, body {
+    display: grid;
+  
+    height: 100%;
+  }
+  
+  .main {
+    display: grid;
+    align-content: center;
+  }
+  
+  .form, .alert {
+    justify-self: center;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .countdown {
+    justify-self: center;
+    text-align: center;
+  }
+  
+  .countdown-time {
+    display: flex;
+    font-family: 'Space Mono', monospace;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .countdown-time span {
+    display: grid;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  
+  .countdown-time span::after {
+    font-size: 0.8rem;
+  }
+  
+  .countdown-time .days::after {
+    content: 'days';
+  }
+  
+  .countdown-time .hours::after {
+    content: 'hours';
+  }
+  
+  .countdown-time .minutes::after {
+    content: 'minutes';
+  }
+  
+  .countdown-time .seconds::after {
+    content: 'seconds';
+  }
+  
+  
+  
+  
+  .hide {
+    display: none;
+  }
