@@ -18,8 +18,93 @@ html, body {
   .countdown {
     justify-self: center;
     text-align: center;
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    padding: 2rem;
+  }
+
+  #form {
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    padding: 2rem;
+  }
+
+  .frontPageTitle {
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    padding: 1.5rem;
+  }
+
+  .titleInput {
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  .dateTimeInput {
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  #countdownTitle {
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    padding: 1.5rem;
+  }
+
+  #countdownTime {
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    padding: 1.5rem;
   }
   
+  #clear {
+    font-size: 1.5rem;
+  }
   .countdown-time {
     display: flex;
     font-family: 'Space Mono', monospace;
@@ -59,3 +144,9 @@ html, body {
   .hide {
     display: none;
   }
+
+body {
+  font-family: azo-sans-web, sans-serif;
+  background: rgb(0, 255, 225);
+  background: linear-gradient(0deg, rgb(0, 255, 251) 0%, rgb(255, 218, 35) 50%, rgb(253, 121, 85) 100%);
+}
